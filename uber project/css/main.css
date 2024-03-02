@@ -1,0 +1,509 @@
+.body{
+    font-family: Helvetica ,Arial,  sans-serif;
+    
+}
+.p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.bartop{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    justify-content: space-between;
+    padding-right: 64px;
+    padding-left: 64px;
+}
+.main-black{
+    background: black;
+    display: block;
+}
+.img{
+    width: 50px;
+    margin-left: 20px;
+    padding-left: 5px;
+    padding-top: 5px;
+    margin-right: 15px;
+}
+.button-in{
+    border-radius: 20px;
+    width: auto;
+    height: 35px;
+    border: 0px;
+    background-color: transparent;
+    color: white;
+    margin-right: 5px;
+    font-weight: bold;
+    transition: 0.6s;
+    cursor: pointer;
+    font-size: 14px;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+.button-in:hover{
+    background-color: rgb(53, 53, 53);
+}
+.arrow{
+    width: 12px;
+    margin-left: 5px;
+}
+.button-up{
+    border-radius: 20px;
+    width: 70px;
+    height: 35px;
+    border: 0px;
+    background-color: white;
+    color: black;
+    margin-right: 20px;
+    font-weight: bold;
+    transition: 0.4s;
+    cursor: pointer;
+    font-size: 14px;
+}
+.world{
+    width: 12px;
+    margin-right: 5px;
+}
+.button-up:hover{
+    background-color: rgb(202, 202, 202);
+}
+.menu{
+    width: 30px;
+    background: black;
+    border-radius: 15px;
+    border: solid;
+    border-color: black;
+}
+.menu:hover{
+    background-color: rgb(53, 53, 53);
+}
+.buttons{
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.h1 {
+    color: white;
+    font-size: 35px;
+    width: 70%;
+}
+.go{
+    margin-bottom: 0px;
+    font-size: 60px
+}
+.uber{
+    margin-top: 0px;
+}
+.center{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    column-gap: 36px;
+    margin-top: 60px;
+    padding-left: 160px;
+    padding-right: 160px;
+    margin-bottom: 50px;
+}
+.center-img{
+    width: 100% ;
+}
+.textbox{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3px;
+    border-radius: 5px;
+}
+.box{
+    border-radius: 10px;
+    height: 45px;
+    width: 410px;
+    margin-top: 10px;
+}
+::placeholder{
+    font-size: 15px;
+    padding-left: 35px;
+}
+.price{
+    height: 50px;
+    margin-top: 25px;
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.links{
+    color: black;
+}
+.page{
+    display: grid;
+    
+}
+.sec-in{
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    column-gap: 36px;
+    margin-top: 60px;
+    padding-left: 160px;
+    padding-right: 5rem;
+    padding-top: 100px;
+    height: 600px;
+}
+.sec-center{
+    margin-right: -8px;
+}
+.sec-img{
+    height: 700px;
+    width: 100%;
+    margin-right: 20px;
+}
+.sec-image{
+    width: 100%;
+}
+.h1-2{
+    padding-left: 80px;
+    padding-bottom: 300px;
+    padding-right: 140px;
+}
+.go-2{
+    font-size: 50px;
+    text-size-adjust: 100%;
+    line-height: 60px;
+    padding-top: 90px;
+}
+.str-btn{
+    background-color: black;
+    color: white;
+    border: 0px;
+    height: 50px;
+    margin-top: 25px;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-size: 16px;
+    font-weight: 400;
+    transition: 0.4s;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.str-btn:hover{
+    background-color: rgb(44, 44, 44);
+}
+.account{
+    color: grey;
+    text-decoration: none;
+    text-underline-offset: 0;
+}
+.account:hover{
+    text-decoration: underline;
+}
+.thd{
+    background: rgb(255, 255, 255);
+    height: 600px;
+    display: flex;
+    padding-left: 100px;
+    padding-right: 150px;
+}
+.qr-div{
+    background-color: rgb(247, 245, 245);
+    height: 350px;
+    display: block;
+    padding-left: 100px;
+    padding-top: 80px;
+    padding-right: 100px;
+    padding-bottom: 40px;
+}
+.h1qr{
+    margin-top: 0;
+    font-size: 40px;
+    margin-left: 4%;
+}
+.QR{
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 90px;
+    background-color: white;
+    border: 0.5px;
+    display: flex;
+    font-size: 24px;
+    cursor: pointer;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+.buttonsqr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.appqr{
+    width: 160px;
+}
+.appqr-2{
+    width: 168px;
+}
+.text-qr{
+    font-size: 16px;
+}
+.h2{
+    margin-bottom: 0px;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+.down-page{
+    background: black;
+    height: 850px;
+    padding-left: 11%;
+    padding-right:11%;
+    padding-bottom: 100px;
+    padding-top: 4%;
+}
+.img-down{
+    width: 50px;
+
+}
+.a{
+    height: 70px;
+    width: 900px;
+}
+.b{
+    color: rgb(230, 230, 230);
+    text-decoration: none;
+    text-underline-offset: 0;
+    text-align: right;
+    font-size: 15px;
+}
+.ba{
+    text-decoration: none;
+}
+.b:hover{
+    color: rgb(183, 183, 183);
+}
+.hc{
+    height:100px;
+    width: 150px;
+    cursor: pointer;
+}
+.all-p{
+    font-size: 18px;
+    color: white;
+    margin-top: 0px;
+}
+.tags{
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.tags-container{
+    color: white;
+    line-height: 25px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.tags-container:hover{
+    cursor: pointer;
+    color: rgb(129, 129, 129);
+}
+.all-tags{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.a{
+    text-decoration: none;
+}
+.sc{
+    width: 16px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 5px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.sc:hover{
+    background-color: rgb(58, 58, 58);
+}
+.social{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+.soc-div{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.div-sc{
+    width: 120px;
+}
+.down-buttons{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: white;
+    background-color: transparent;
+    border-style: solid;
+    transition: 0.4s;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.down-buttons:hover{
+    background-color: rgb(55, 55, 55);
+}
+.store{
+    width: 11%;
+    padding-right: 0.5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.footer{
+    color: grey;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+.con{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    cursor: pointer;
+}
+.con-btn:hover{
+    color: rgb(63, 63, 63);
+}
+/*
+=============== 
+sign up page
+===============
+*/
+.header{
+    background-color: black;
+    height: 65px;
+    margin-top: -10px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.img-sign{
+    width: 60px;
+    margin-top: 20px;
+    margin-left: 55px;
+}
+.sign-div{
+    display: flex;
+    justify-content: center;
+
+}
+.sign-idiv{
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    margin-top: 27px;
+    width: 330px;
+}
+.sign-txt{
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.box-2{
+    border-radius: 10px;
+    height: 45px;
+    width: 100%;
+    margin-top: 10px;
+    border: 0px;
+    background-color: rgb(235, 235, 235);
+}
+.box-2::placeholder{
+    font-size: 16px;
+    padding-left: 13px;
+}
+.continue{
+    background-color: black;
+    color: white;
+    height: 50px;
+    margin-top: 15px;
+    border-radius: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.hr-div{
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    color: rgb(188, 188, 188);
+}
+.hr{
+    width: 45%;
+    padding-top: 17px;
+}
+.sign-div-btns{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.sign-btn{
+    width: 100%;
+    margin-bottom: 10px;
+    padding-bottom: 14px;
+    padding-top: 10px;
+    border-radius: 6px;
+    border: 0px;
+    font-size: 16px;
+    transition: 0.4s;
+    cursor: pointer;
+
+}
+.sign-btn:hover{
+    background-color: rgb(211, 211, 211);
+}
+.logos{
+    width: 18px;
+    margin-right: 10px;
+}
+.logos-g{
+    width: 15px;
+    margin-right: 10px;
+}
+.log-btn{
+    display: flex;
+    justify-content: center;
+}
+.sign-btn-qr{
+    width: 100%;
+    background-color: white;
+    margin-bottom: 14px;
+    padding-bottom: 14px;
+    padding-top: 10px;
+    border-radius: 6px;
+    border: 0px;
+    font-size: 16px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.sign-btn-qr:hover{
+    background-color: rgb(239, 239, 239);
+}
+/*
+=============== 
+sign up page
+===============
+*/
